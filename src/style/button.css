@@ -1,0 +1,14 @@
+@layer components {
+    .btn-solid{
+        @apply bg-purple-400 rounded-md px-4 py-2 text-white font-semibold hover:bg-purple-500 transition-all;
+    }
+    .btn-outline{
+        @apply bg-purple-400 rounded-md px-4 py-2 hover:text-white font-semibold hover:bg-purple-500 border border-purple-700 bg-opacity-10 transition-all;
+        
+    }
+    .btn-gosht{
+        @apply rounded-md px-4 py-2 font-semibold hover:bg-purple-100  bg-opacity-10 transition-all;
+        
+    }
+   
+}
