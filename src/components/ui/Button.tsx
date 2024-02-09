@@ -39,3 +39,11 @@ const Button = forwardRef<TRef, TButton>(
 );
 
 export default Button;
+
+/* 
+Accordion
+Tabs
+pagination component
+sideber/carusel component
+Breadcrumb
+*/
