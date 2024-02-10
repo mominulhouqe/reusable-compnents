@@ -31,9 +31,7 @@ const Button = forwardRef<TRef, TButton>(
         {...rest}
         ref={ref}
         className={cn(getVariant(variant), className)}
-      >
-        Open Modal
-      </button>
+      ></button>
     );
   }
 );
